@@ -47,6 +47,8 @@ python server.py
 ```sh
 python new.py
 ```
+## Demo 
+![Chatbot-Lite](images/demo.png)
 
 ## How To Use ?
 Once the setup is done the command ```sh python new.py ``` will open the ui in the browser 
