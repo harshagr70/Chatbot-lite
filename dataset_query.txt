@@ -1,0 +1,45 @@
+//sample graph data for running chatbot 
+
+    CREATE (m1:Movie {title: "The Matrix", released: 1999, genre: "Action"})
+    CREATE (m2:Movie {title: "The Matrix Reloaded", released: 2003, genre: "Action"})
+    CREATE (m3:Movie {title: "The Matrix Revolutions", released: 2003, genre: "Action"})
+    CREATE (m4:Movie {title: "Inception", released: 2010, genre: "Sci-Fi"})
+    CREATE (m5:Movie {title: "The Dark Knight", released: 2008, genre: "Action"})
+    CREATE (m6:Movie {title: "Interstellar", released: 2014, genre: "Sci-Fi"})
+
+    CREATE (a1:Actor {name: "Keanu Reeves"})
+    CREATE (a2:Actor {name: "Laurence Fishburne"})
+    CREATE (a3:Actor {name: "Carrie-Anne Moss"})
+    CREATE (a4:Actor {name: "Christian Bale"})
+    CREATE (a5:Actor {name: "Leonardo DiCaprio"})
+    CREATE (a6:Actor {name: "Matthew McConaughey"})
+
+    CREATE (d1:Director {name: "The Wachowskis"})
+    CREATE (d2:Director {name: "Christopher Nolan"})
+
+    CREATE (a1)-[:ACTED_IN]->(m1)
+    CREATE (a1)-[:ACTED_IN]->(m2)
+    CREATE (a1)-[:ACTED_IN]->(m3)
+    CREATE (a1)-[:ACTED_IN]->(m5)
+
+    CREATE (a2)-[:ACTED_IN]->(m1)
+    CREATE (a2)-[:ACTED_IN]->(m2)
+    CREATE (a2)-[:ACTED_IN]->(m3)
+
+    CREATE (a3)-[:ACTED_IN]->(m1)
+    CREATE (a3)-[:ACTED_IN]->(m2)
+
+    CREATE (a4)-[:ACTED_IN]->(m5)
+
+    CREATE (a5)-[:ACTED_IN]->(m4)
+
+    CREATE (a6)-[:ACTED_IN]->(m6)
+
+    CREATE (d1)-[:DIRECTED]->(m1)
+    CREATE (d1)-[:DIRECTED]->(m2)
+    CREATE (d1)-[:DIRECTED]->(m3)
+
+    CREATE (d2)-[:DIRECTED]->(m4)
+    CREATE (d2)-[:DIRECTED]->(m5)
+    CREATE (d2)-[:DIRECTED]->(m6)
+    """
