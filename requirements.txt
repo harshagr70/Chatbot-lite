@@ -1,0 +1,12 @@
+fastapi
+neo4j
+pydantic
+langchain_community
+fastapi
+dotenv
+neo4j_graphrag
+uvicorn
+
+streamlit
+requests
+pandas
