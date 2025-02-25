@@ -3,7 +3,7 @@
 
 Chatbot-Lite is a lightweight chatbot application built using FastAPI for the backend and Streamlit for the frontend. It leverages LLaMA for NLP processing and uses Neo4j as a knowledge graph database.
 **note (This is to showcase that queries are generated successfully by the llm model , the main project is in - https://github.com/harshagr70/LLM_chatbot
-this project does'nt use HTML ,CSS for frontend , this is just an extra to the main project.
+this project does not use HTML ,CSS for frontend , this is just an extra to the main project.
 ---
 
 ## Setup Instructions
