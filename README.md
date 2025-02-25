@@ -1,11 +1,8 @@
----
-title: "Chatbot-Lite Setup Guide"
----
 
 # Chatbot-Lite
 
 Chatbot-Lite is a lightweight chatbot application built using FastAPI for the backend and Streamlit for the frontend. It leverages LLaMA for NLP processing and uses Neo4j as a knowledge graph database.
-**note (This is to showcase that queries are generated successfully by the llm model , the main project is in - 
+**note (This is to showcase that queries are generated successfully by the llm model , the main project is in - https://github.com/harshagr70/LLM_chatbot
 this project does'nt use HTML ,CSS for frontend , this is just an extra to the main project.
 ---
 
@@ -17,8 +14,7 @@ Ensure you have the following installed:
 
 - Python (>=3.8)
 - pip and venv (Python package manager and virtual environments)
-- Docker (for running Neo4j)
-- [LLaMA](https://github.com/facebookresearch/llama) model setup
+- [OLLama](https://ollama.com/download/mac) model setup
 - Neo4j with an example dataset loaded
 
 ---
